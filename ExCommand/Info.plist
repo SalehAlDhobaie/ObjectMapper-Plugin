@@ -30,19 +30,27 @@
 			<array>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).MappableCommand</string>
-					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).MappableCommand</string>
-					<key>XCSourceEditorCommandName</key>
-					<string>Mappable</string>
-				</dict>
-				<dict>
-					<key>XCSourceEditorCommandClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).ImmutableMappableCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>$(PRODUCT_BUNDLE_IDENTIFIER).ImmutableMappableCommand</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>ImmutableMappable</string>
+					<string>ObjectMapper-ImmutableMappable</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).MappableCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).MappableCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>ObjectMapper-Mappable</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).MapMappableCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).MapMappableCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>ModelMapper-Mapping</string>
 				</dict>
 			</array>
 			<key>XCSourceEditorExtensionPrincipalClass</key>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1142BB1E30934F00A1D681 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD14FB1E1361FF004FCF92 /* SourceEditorExtension.swift */; };
+		4C1142BD1E30A7CF00A1D681 /* MapMappableCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1142B81E3092FD00A1D681 /* MapMappableCommand.swift */; };
 		E801FB44FC950D1F1209B46F /* Pods_ObjectMapper_Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6B47D546EACF5895A2D719 /* Pods_ObjectMapper_Plugin.framework */; };
 		FF494D9C1E163D29001069FB /* MutableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF494D9B1E163D29001069FB /* MutableModel.swift */; };
 		FF4AC97F1E149FE1000FC377 /* ModelSample in Resources */ = {isa = PBXBuildFile; fileRef = FF4AC97E1E149FE1000FC377 /* ModelSample */; };
@@ -24,7 +26,7 @@
 		FFDD14CC1E136198004FCF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDD14CB1E136198004FCF92 /* Assets.xcassets */; };
 		FFDD14CF1E136198004FCF92 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFDD14CD1E136198004FCF92 /* MainMenu.xib */; };
 		FFDD14DD1E1361D2004FCF92 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD14DC1E1361D2004FCF92 /* Cocoa.framework */; };
-		FFDD14E81E1361D3004FCF92 /* ExCommand.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FFDD14DA1E1361D2004FCF92 /* ExCommand.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FFDD14E81E1361D3004FCF92 /* Mapping JSON.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FFDD14DA1E1361D2004FCF92 /* Mapping JSON.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FFDD14FD1E1361FF004FCF92 /* ImmutableMappableCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD14EF1E1361FF004FCF92 /* ImmutableMappableCommand.swift */; };
 		FFDD14FE1E1361FF004FCF92 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFDD14F01E1361FF004FCF92 /* Info.plist */; };
 		FFDD14FF1E1361FF004FCF92 /* MappableCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD14F11E1361FF004FCF92 /* MappableCommand.swift */; };
@@ -35,7 +37,6 @@
 		FFDD15041E1361FF004FCF92 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD14F81E1361FF004FCF92 /* Regex.swift */; };
 		FFDD15051E1361FF004FCF92 /* String+ReplaceMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD14F91E1361FF004FCF92 /* String+ReplaceMatching.swift */; };
 		FFDD15061E1361FF004FCF92 /* ThreadLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD14FA1E1361FF004FCF92 /* ThreadLocal.swift */; };
-		FFDD15071E1361FF004FCF92 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD14FB1E1361FF004FCF92 /* SourceEditorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +56,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				FFDD14E81E1361D3004FCF92 /* ExCommand.appex in Embed App Extensions */,
+				FFDD14E81E1361D3004FCF92 /* Mapping JSON.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C1142B81E3092FD00A1D681 /* MapMappableCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapMappableCommand.swift; sourceTree = "<group>"; };
 		6C6B47D546EACF5895A2D719 /* Pods_ObjectMapper_Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectMapper_Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		863A74675A6DFBA36241254F /* Pods-ObjectMapper-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper-Plugin/Pods-ObjectMapper-Plugin.release.xcconfig"; sourceTree = "<group>"; };
 		A6BC7505735AFD6AF05B5E7B /* Pods-ObjectMapper-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper-Plugin/Pods-ObjectMapper-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,7 +86,7 @@
 		FFDD14CB1E136198004FCF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFDD14CE1E136198004FCF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		FFDD14D01E136198004FCF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFDD14DA1E1361D2004FCF92 /* ExCommand.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExCommand.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDD14DA1E1361D2004FCF92 /* Mapping JSON.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mapping JSON.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDD14DC1E1361D2004FCF92 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FFDD14E01E1361D2004FCF92 /* ExCommand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExCommand.entitlements; sourceTree = "<group>"; };
 		FFDD14EF1E1361FF004FCF92 /* ImmutableMappableCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmutableMappableCommand.swift; sourceTree = "<group>"; };
@@ -160,7 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				FFDD14C61E136198004FCF92 /* ObjectMapper-Plugin.app */,
-				FFDD14DA1E1361D2004FCF92 /* ExCommand.appex */,
+				FFDD14DA1E1361D2004FCF92 /* Mapping JSON.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +199,7 @@
 				FF4AC9921E160412000FC377 /* Parser.swift */,
 				FFDD14F11E1361FF004FCF92 /* MappableCommand.swift */,
 				FFDD14EF1E1361FF004FCF92 /* ImmutableMappableCommand.swift */,
+				4C1142B81E3092FD00A1D681 /* MapMappableCommand.swift */,
 				FFDD14FB1E1361FF004FCF92 /* SourceEditorExtension.swift */,
 				FFDD14F21E1361FF004FCF92 /* Source */,
 				FFDD14DF1E1361D2004FCF92 /* Supporting Files */,
@@ -252,9 +255,9 @@
 			productReference = FFDD14C61E136198004FCF92 /* ObjectMapper-Plugin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FFDD14D91E1361D2004FCF92 /* ExCommand */ = {
+		FFDD14D91E1361D2004FCF92 /* Mapping JSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFDD14E91E1361D3004FCF92 /* Build configuration list for PBXNativeTarget "ExCommand" */;
+			buildConfigurationList = FFDD14E91E1361D3004FCF92 /* Build configuration list for PBXNativeTarget "Mapping JSON" */;
 			buildPhases = (
 				FFDD14D61E1361D2004FCF92 /* Sources */,
 				FFDD14D71E1361D2004FCF92 /* Frameworks */,
@@ -264,9 +267,9 @@
 			);
 			dependencies = (
 			);
-			name = ExCommand;
+			name = "Mapping JSON";
 			productName = ExCommand;
-			productReference = FFDD14DA1E1361D2004FCF92 /* ExCommand.appex */;
+			productReference = FFDD14DA1E1361D2004FCF92 /* Mapping JSON.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
@@ -281,12 +284,12 @@
 				TargetAttributes = {
 					FFDD14C51E136198004FCF92 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 4GWLHB3KYU;
+						DevelopmentTeam = X7GY4L5KH2;
 						ProvisioningStyle = Automatic;
 					};
 					FFDD14D91E1361D2004FCF92 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 4GWLHB3KYU;
+						DevelopmentTeam = X7GY4L5KH2;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -306,7 +309,7 @@
 			projectRoot = "";
 			targets = (
 				FFDD14C51E136198004FCF92 /* ObjectMapper-Plugin */,
-				FFDD14D91E1361D2004FCF92 /* ExCommand */,
+				FFDD14D91E1361D2004FCF92 /* Mapping JSON */,
 			);
 		};
 /* End PBXProject section */
@@ -402,14 +405,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFDD15071E1361FF004FCF92 /* SourceEditorExtension.swift in Sources */,
 				FFDD15001E1361FF004FCF92 /* Foundation+Ranges.swift in Sources */,
 				FFDD15041E1361FF004FCF92 /* Regex.swift in Sources */,
 				FFDD15031E1361FF004FCF92 /* Range+Compatibility.swift in Sources */,
 				FFDD14FD1E1361FF004FCF92 /* ImmutableMappableCommand.swift in Sources */,
 				FFDD14FF1E1361FF004FCF92 /* MappableCommand.swift in Sources */,
+				4C1142BD1E30A7CF00A1D681 /* MapMappableCommand.swift in Sources */,
 				FFDD15021E1361FF004FCF92 /* Options.swift in Sources */,
 				FFDD15061E1361FF004FCF92 /* ThreadLocal.swift in Sources */,
+				4C1142BB1E30934F00A1D681 /* SourceEditorExtension.swift in Sources */,
 				FF4AC9931E160412000FC377 /* Parser.swift in Sources */,
 				FF4AC9911E1603DB000FC377 /* Model.swift in Sources */,
 				FFDD15011E1361FF004FCF92 /* MatchResult.swift in Sources */,
@@ -422,7 +426,7 @@
 /* Begin PBXTargetDependency section */
 		FFDD14E71E1361D3004FCF92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FFDD14D91E1361D2004FCF92 /* ExCommand */;
+			target = FFDD14D91E1361D2004FCF92 /* Mapping JSON */;
 			targetProxy = FFDD14E61E1361D3004FCF92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -537,10 +541,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4GWLHB3KYU;
+				DEVELOPMENT_TEAM = X7GY4L5KH2;
 				INFOPLIST_FILE = "ObjectMapper-Plugin/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.copycat.ObjectMapper-Plugin";
+				PRODUCT_BUNDLE_IDENTIFIER = sa.com.Saleh.plugins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -554,10 +558,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4GWLHB3KYU;
+				DEVELOPMENT_TEAM = X7GY4L5KH2;
 				INFOPLIST_FILE = "ObjectMapper-Plugin/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.copycat.ObjectMapper-Plugin";
+				PRODUCT_BUNDLE_IDENTIFIER = sa.com.Saleh.plugins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -570,11 +574,11 @@
 				CODE_SIGN_ENTITLEMENTS = ExCommand/ExCommand.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4GWLHB3KYU;
+				DEVELOPMENT_TEAM = X7GY4L5KH2;
 				INFOPLIST_FILE = ExCommand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.copycat.ObjectMapper-Plugin.ExCommand";
+				PRODUCT_BUNDLE_IDENTIFIER = sa.com.Saleh.plugins.MappingJSON;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -590,11 +594,11 @@
 				CODE_SIGN_ENTITLEMENTS = ExCommand/ExCommand.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4GWLHB3KYU;
+				DEVELOPMENT_TEAM = X7GY4L5KH2;
 				INFOPLIST_FILE = ExCommand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.copycat.ObjectMapper-Plugin.ExCommand";
+				PRODUCT_BUNDLE_IDENTIFIER = sa.com.Saleh.plugins.MappingJSON;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -623,7 +627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFDD14E91E1361D3004FCF92 /* Build configuration list for PBXNativeTarget "ExCommand" */ = {
+		FFDD14E91E1361D3004FCF92 /* Build configuration list for PBXNativeTarget "Mapping JSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFDD14EA1E1361D3004FCF92 /* Debug */,
